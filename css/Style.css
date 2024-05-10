@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  transition: 1s;
+}
+header{
+background: rgb(255, 255, 255);
+padding-left: 60px;
+}
+nav a.logo{
+  font-size: 25px;
+  color: rgb(243, 121, 151);
+  padding: 10px;
+  text-decoration: none;
+  font-weight: 800;
+  
+}
+.navbar a{
+  font-size: 15px;
+  padding-inline: 10px;
+  color:black;
+  text-decoration: none;
+  font-weight: 600;
+}
+.navbar a:hover,
+.navbar a:active{
+  color:  rgb(243, 121, 151);
+  text-decoration: underline;
+  transition: .5s;
+}  
+.home_cont{
+padding-top:100px;
+height: 100vh;
+margin-left: 10px;
+max-width: fit-content;
+font-size: 1px;
+}
+.home_cont h1{
+  font-size: 50px;
+}
+#Home h2{
+  color:  rgb(243, 121, 151);
+  font-size: .75cm;
+}
+#Home img{
+width: 500px;
+}
+#Home p{
+font-size: 20px;
+max-width: 90%;
+}
+#Home{
+margin-left: 40px;
+}
+#About h1{
+font-size: 1.5cm;
+font-style: oblique;
+color: rgb(7, 7, 7) ;
+}
+#About p{
+max-width: 100%;
+margin-left: 0px;
+font-size: 20px;
+}
+#About img{
+padding-right: 10px;
+width: 400px;
+float: left;
+display: block;
+}
+#About{
+margin-left: 40px;
+height: 100vh;
+}
+#Products{
+margin: 20px;
+height: 300vh;
+}
+#Products h1{
+font-size: 1.5cm;
+}
+.style{
+display: block;
+}
+div.gallery {
+margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 300px;
+}
+div.desc {
+padding: 15px;
+text-align: center;
+}
+div.gallery img {
+height: 300px;
+width: 100%;
+}
+div.gallery:hover {
+border: 1px solid #dde841;
+}
+div.desc:hover {
+color: #cb7a10;
+}
+#Contact{
+height: 100vh;
+}
+#Contact h1{
+font-size: 1.2cm;
+text-align: center;
+margin-top: 50px;
+}
+#Contact img{
+float: left;
+width: 150px;
+margin: 90px;
+margin-top: 15%;
+display: inline-flex;
+}
+.cont{
+height: 100px;
+}
+.cont img{
+float: left;
+}
+.cont{
+border: black;
+background-color: #ccc;
+padding: 20px;
+max-width: fit-content;
+height: fit-content;
+justify-content: center;
+margin-top: 20%;
+margin: 90px;
+font-size: .75cm;
+max-width: fit-content;
+}
+.cont li{
+list-style-type: none;
+border: black 1px;
+}
+
+/*Responsive*/
+@media (max-width: 700px) {
+header{
+  padding-left: 5px;
+  margin: 0px;
+  }
+.navbar a{
+  font-size: 15px;
+  display: block;
+  text-decoration: underline;
+}
+nav a.logo{
+  font-size: 25px;
+  margin-left: 5px;
+}
+#Home{
+  margin-left: 10px;
+  height: 100vh;
+}
+#Home img{
+  max-width: 150px;
+  height: 100px;
+}
+#Home h1{
+  font-size: 15px;
+}
+#Home h2{
+  font-size: 15px;
+}
+#Home p{
+  font-size: 15px;
+}
+
+#About{
+    height: 90vh;
+    margin-left: 10px;
+  }
+#About h1{
+margin-left: 10px;
+font-size: x-large;
+}
+#About p{
+  margin-left: 10px;
+  padding-top: 10px;
+  max-width: 2500px;
+  justify-content: center;
+  font-size: 10px;
+}
+#About img{
+  margin-left: 10px;
+  max-width: 200px;
+  float: left;
+}
+#Products{
+  height: 200vh;
+  transition: 1s;
+}
+.style h1{
+  display: inline;
+  font-size: x-large;
+  width: 20px
+}
+.style img{
+  width: 15px;
+}
+div.gallery {
+border: 1px solid #ccc;
+float: left;
+width: 110px;
+}
+#Products{
+max-width: 500px;
+height: 180vh;
+}
+#Products h1{
+font-size: x-large;
+}
+div.desc {
+padding: 10px;
+text-align: center;
+font-size: x-small;
+}
+div.gallery {
+height: 180px;
+width: 101px;
+}
+div.gallery img {
+height: 50%;
+width: 100%;
+}
+div.gallery:hover {
+border: 1px solid #dde841;
+}
+div.desc:hover {
+color: #cb7a10;
+}
+#Contact{
+margin-left: 20px;
+height: 50vh;
+}
+#Contact h1{
+text-align: left;
+font-size: x-large;
+}
+.cont{
+padding: 20px;
+max-width: 500px;
+margin: 15px;
+margin-top: 20%;
+font-size: 10px;
+}
+}
